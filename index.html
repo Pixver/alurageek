@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - Figuras de One Piece</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+
+        <div class="contenedor-titulo-imagen">
+            <img class="image-logo" src="imagenes/bandera1.gif" alt="bandera banner one-piece">
+            <h1>AluraGeek <br>Tienda de Figuras de One Piece</br></h1>
+        </div>
+    </header>
+    <div class="banner-imagen">
+        <img class="image-ban" src="imagenes/banner one piece.png" alt="one-piece-banner">
+    </div>
+    <main>
+
+
+        <div class="figuras-disponibles">
+            <h2>Mis productos</h2>
+
+        </div>
+
+
+        <section class="mis-productos">
+
+            <div class="productos">
+                <div class="producto" data-category="mugiwara">
+                    <img src="imagenes/sanji.png" alt="Figura de Sanji">
+                    <p>Sanji - $25.00</p>
+                    <button class="add-to-cart" data-name="Sanji" data-price="25.00">Agregar al Carrito</button>
+                </div>
+                <div class="producto" data-category="mugiwara">
+                    <img src="imagenes/usopp.png" alt="Figura de Usopp">
+                    <p>Usopp - $20.00</p>
+                    <button class="add-to-cart" data-name="Usopp" data-price="20.00">Agregar al Carrito</button>
+                </div>
+                <div class="producto" data-category="mugiwara">
+                    <img src="imagenes/robien.png" alt="Figura de Robin">
+                    <p>Robin - $22.00</p>
+                    <button class="add-to-cart" data-name="Robin" data-price="22.00">Agregar al Carrito</button>
+                </div>
+
+                <div class="producto" data-category="mugiwara">
+                    <img src="imagenes/luffy.png" alt="Figura de luffy">
+                    <p>Luffy - $22.00</p>
+                    <button class="add-to-cart" data-name="Luffy" data-price="22.00">Agregar al Carrito</button>
+
+                </div>
+
+                <div class="producto" data-category="mugiwara">
+                    <img src="imagenes/zoro.png" alt="Figura de Zoro">
+                    <p>Zoro - $22.00</p>
+                    <button class="add-to-cart" data-name="Zoro" data-price="22.00">Agregar al Carrito</button>
+                </div>
+
+                <div class="producto" data-category="mugiwara">
+                    <img src="imagenes/brook.png" alt="Figura de Brook">
+                    <p>Brook - $22.00</p>
+                    <button class="add-to-cart" data-name="Brook" data-price="22.00">Agregar al Carrito</button>
+                </div>
+
+                <div class="producto" data-category="mugiwara">
+                    <img src="imagenes/jimbe.png" alt="Figura de Jimbe">
+                    <p>Jimbe - $22.00</p>
+                    <button class="add-to-cart" data-name="Jimbe" data-price="22.00">Agregar al Carrito</button>
+                </div>
+
+                <div class="producto" data-category="mugiwara">
+                    <img src="imagenes/franky.png" alt="Figura de Franky">
+                    <p>Franky - $22.00</p>
+                    <button class="add-to-cart" data-name="Franky" data-price="22.00">Agregar al Carrito</button>
+                </div>
+
+                <div class="producto" data-category="mugiwara">
+                    <img src="imagenes/chopper.png" alt="Figura de Chopper">
+                    <p>Chopper - $22.00</p>
+                    <button class="add-to-cart" data-name="Robin" data-price="22.00">Agregar al Carrito</button>
+                </div>
+                <div class="producto" data-category="mugiwara">
+                    <img src="imagenes/nami.png" alt="Figura de Nami">
+                    <p>Nami - $22.00</p>
+                    <button class="add-to-cart" data-name="Nami" data-price="22.00">Agregar al Carrito</button>
+                </div>
+
+
+            </div>
+            <section class="buscador">
+            <div class="titulo">
+                <h2>Buscar producto:</h2>
+            </div>
+
+            <div class="opciones-busqueda">
+                    <input id="nombre-producto" class="option" type="text" placeholder="Nombre">
+                    <input id="precio-producto" class="option" type="text" placeholder="Precio">
+                    <input id="imagen-producto" class="option" type="text" placeholder="URL de la imagen">
+                    <div class="botone">
+                        <input type="button" value="Buscar" class="enviar" onclick="buscarProducto()">
+                        <input type="button" value="Limpiar" class="Limpiar" onclick="limpiarFormulario()">
+                    </div>
+            </div>
+            </section>
+
+
+
+        </section>
+
+
+        </section>
+
+
+    </main>
+
+
+
+
+    <footer>
+        <p>&copy; AluraGeek. <br>Desarrollado por Cesar Martinez.</br>
+            <br>Alura latam 2024</br>
+
+        </p>
+    </footer>
+
+   
+    <script src="main.js"></script>
+</body>
+
+</html>
